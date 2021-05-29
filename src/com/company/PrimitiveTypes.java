@@ -32,5 +32,9 @@ public class PrimitiveTypes {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Maximum value = " + myMaxLongValue);
         System.out.println("Long Minimum value = " + myMinLongValue);
+
+        // Casting ->
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
     }
 }
