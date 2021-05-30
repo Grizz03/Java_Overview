@@ -13,7 +13,7 @@ public class PrimitiveTypes {
 
         int myMaxIntTest = 2_147_483_647;
         System.out.println(myMaxIntTest);
-
+        // Stays around a certain dimension depends on area of where its located.
         // Byte -> 8 bits width
         byte myMinByteValue = Byte.MIN_VALUE;
         byte myMaxByteValue = Byte.MAX_VALUE;
