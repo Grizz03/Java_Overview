@@ -17,5 +17,12 @@ public class Expressions {
 
         result = result % 3; // remainder of (4 / 3) = 1
         System.out.println(result);
+
+        // Abbreviating Operators
+        result++; // 1 + 1 = 2
+        System.out.println(result);
+        // += -= *=
+        result--;
+        System.out.println(result);
     }
 }
